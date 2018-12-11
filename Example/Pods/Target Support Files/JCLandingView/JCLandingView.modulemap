@@ -1,0 +1,6 @@
+framework module JCLandingView {
+  umbrella header "JCLandingView-umbrella.h"
+
+  export *
+  module * { export * }
+}

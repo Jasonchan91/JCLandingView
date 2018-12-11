@@ -1,0 +1,22 @@
+{
+  "name": "JCLandingView",
+  "version": "0.1.0",
+  "summary": "A short description of JCLandingView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jasonchan91/JCLandingView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jasonchan91": "j.ianchan.j@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/jasonchan91/JCLandingView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JCLandingView/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - JCLandingView (0.1.0)
+
+DEPENDENCIES:
+  - JCLandingView (from `../`)
+
+EXTERNAL SOURCES:
+  JCLandingView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JCLandingView: 6e351d6048e3ec4418ad30e8ce7fba45850d36dc
+
+PODFILE CHECKSUM: 36e93fee898f0a412f68f410a362856a3a5b659d
+
+COCOAPODS: 1.5.3

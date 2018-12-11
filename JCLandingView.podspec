@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'JCLandingView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of JCLandingView.'
+  s.summary          = 'JCLandingView create landing view with ease.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'Idea is come from AloeStackView create by Airbnb. JCLandingView is using UITableView instead of UIStackView. You can easily add views in JCLandingView without having trouble with constraint to layout it properly. Define some property for view before append to landing view, magic will happen.'
 
   s.homepage         = 'https://github.com/jasonchan91/JCLandingView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -31,7 +29,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'JCLandingView/Classes/**/*'
-  
+  s.swift_version = '4.2'
   # s.resource_bundles = {
   #   'JCLandingView' => ['JCLandingView/Assets/*.png']
   # }
