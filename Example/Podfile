@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JCLandingView_Example' do
+  pod 'JCLandingView', :path => '../'
+
+  target 'JCLandingView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
