@@ -50,9 +50,7 @@ class ViewController: UIViewController {
         view.autoHideLastSeparator = false
         view.landingViewSeparatorInset = UIEdgeInsets(top: 0, left: 15, bottom: 0, right: 15)
         view.shouldObserveKeyboard = true
-        view.topInset =  100
-        view.bottomInset = 100
-        view.translatesAutoresizingMaskIntoConstraints = false
+        view.landingViewContentInset = UIEdgeInsets(top: 100, left: 0, bottom: 100, right: 0)
         return view
     }()
     

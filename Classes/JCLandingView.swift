@@ -32,6 +32,11 @@ public class JCLandingView: UIView {
     
     public var autoHideLastSeparator = true
     
+    public override var landingViewContentInset: UIEdgeInsets {
+        didSet {
+            tableView.contentInset = landingViewContentInset
+        }
+    }
     
     public var topInset: CGFloat = 0 {
         didSet {
@@ -106,6 +111,7 @@ public class JCLandingView: UIView {
     }
     
     private func setupView() {
+        translatesAutoresizingMaskIntoConstraints = false
         [tableView].forEach { addSubview($0) }
     }
     

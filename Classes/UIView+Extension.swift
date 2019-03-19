@@ -20,7 +20,7 @@ extension UIView {
         static var LoadingViewDescriptiveName = "loading_view_nsh_DescriptiveName"
     }
     
-    public var landingViewContentInset: UIEdgeInsets {
+    @objc public var landingViewContentInset: UIEdgeInsets {
         get {
             guard let inset = objc_getAssociatedObject(self, &AssociatedKeys.LandingViewContentInsetDescriptiveName) as? UIEdgeInsets else { return .zero }
             return inset
