@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11CFE79ED2ADD5904C70F7C887B46967 /* JCLandingView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4422AE96E619F4F3E391C4997286377F /* JCLandingView-dummy.m */; };
+		274F0B72A2E593645EE91C2D3B0F489F /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3399C365460E121C3D559955AFBD05A4 /* UIView+Extension.swift */; };
 		359D1957F57B978D6802776794ADD44D /* Pods-JCLandingView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BB50E96AF8B055E44BE70A9E46FCFA /* Pods-JCLandingView_Tests-dummy.m */; };
+		4047F2F1DF095D92556A7C9286587DAD /* JCLandingView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 199662F82D116C7617CF9C4F9EB621BB /* JCLandingView-dummy.m */; };
 		46F60352D1ABCB97B79A01D59219A7F9 /* Pods-JCLandingView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3BDF53EE1994F2FBA165FFF3D2D23F3 /* Pods-JCLandingView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B0E53F764E6C4F33727C9C1B59E5FA3 /* JCLandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AA68312EB777329CA8E496BDEFF6DE /* JCLandingView.swift */; };
+		69BAC10DE5190676F4005FAAF686133B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		778481CA7709DFA624B55D1AA02D2C86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		8A43234826D17C694D7AF99B77E6893A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D01D21B62564F26C9BE38223CA4382 /* ReplaceMe.swift */; };
+		95D04E1233AE487E0CA19B8D9E2887AE /* JCLandingViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A00B202200C5E2A584A68D77D434063 /* JCLandingViewCell.swift */; };
+		9F2E1B03852C50D3D91543D8744DC0C4 /* JCLandingView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2193EAC515127DFC94E27BCE6BEDE6 /* JCLandingView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C707D552B069BC55E8C369943AD863BB /* Pods-JCLandingView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CD7B188919449616E04814D4CE8D4F /* Pods-JCLandingView_Example-dummy.m */; };
-		D100C33B3B5AAA1CB9DF00AC6A79BC14 /* JCLandingView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40A33D3B37C2B7024D0504C4C4094B0E /* JCLandingView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D44FFB394EE485778AA633FD79923992 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		D3E28DF3968FF4DE44A9045E4A30A6F0 /* UIResponder+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DD4423B9513C1CB23EA2139A284529 /* UIResponder+Extension.swift */; };
 		F051F2DD582DD035489834E8C629E1A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		F89AB71D40675D6719154F49E42E96B4 /* Pods-JCLandingView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C92C030DFC151670087B73599CE7143 /* Pods-JCLandingView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -31,50 +34,61 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 50DE68E9EBF5B107B879A44D93DB8984;
+			remoteGlobalIDString = F0E24E062D1E8472368E4A84ADBA0199;
 			remoteInfo = JCLandingView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02F9C9D7B204832B0342CEF683DB2579 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0A4B68F4F546EE1CAE792239A9ECDA67 /* Pods-JCLandingView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCLandingView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0B2193EAC515127DFC94E27BCE6BEDE6 /* JCLandingView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JCLandingView-umbrella.h"; sourceTree = "<group>"; };
 		137E1DEB24F69A54B373613B9F2949F5 /* Pods-JCLandingView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCLandingView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		15D01D21B62564F26C9BE38223CA4382 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = JCLandingView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		16DAF5BA902556DA26E06EC19DCDD89C /* Pods_JCLandingView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JCLandingView_Tests.framework; path = "Pods-JCLandingView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16DAF5BA902556DA26E06EC19DCDD89C /* Pods_JCLandingView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JCLandingView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		199662F82D116C7617CF9C4F9EB621BB /* JCLandingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JCLandingView-dummy.m"; sourceTree = "<group>"; };
 		1A3E50CD3D82FC9E35AEDE9D53059A54 /* Pods-JCLandingView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCLandingView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		1D7371316353809BABB74C2FA863E3F2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		24CD7B188919449616E04814D4CE8D4F /* Pods-JCLandingView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JCLandingView_Example-dummy.m"; sourceTree = "<group>"; };
 		2B1AF0D4E370664A3C983247E4A3E747 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2F8283A56E8C012FC7A2D369B506B668 /* JCLandingView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JCLandingView.xcconfig; sourceTree = "<group>"; };
-		36812273751F34E10CE1A53EDC585EA4 /* JCLandingView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = JCLandingView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3399C365460E121C3D559955AFBD05A4 /* UIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Extension.swift"; path = "Classes/UIView+Extension.swift"; sourceTree = "<group>"; };
 		3FE71B9A34523E05C02E1D91F4B6D378 /* Pods-JCLandingView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCLandingView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		40A33D3B37C2B7024D0504C4C4094B0E /* JCLandingView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JCLandingView-umbrella.h"; sourceTree = "<group>"; };
-		4422AE96E619F4F3E391C4997286377F /* JCLandingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JCLandingView-dummy.m"; sourceTree = "<group>"; };
-		4F732100116377000FC105BA450EDF2E /* Pods_JCLandingView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JCLandingView_Example.framework; path = "Pods-JCLandingView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B953C89352EC097A1EBC22620DAE042 /* JCLandingView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JCLandingView.modulemap; sourceTree = "<group>"; };
+		4F732100116377000FC105BA450EDF2E /* Pods_JCLandingView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JCLandingView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5708645C1A0D1DF10A4AF3B017DB9AB4 /* Pods-JCLandingView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JCLandingView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5B2A2B1071E9F2B19347291083A4717C /* Pods-JCLandingView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCLandingView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		63E04F30A68FB21E31DB53803036126E /* JCLandingView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JCLandingView.xcconfig; sourceTree = "<group>"; };
+		64AA68312EB777329CA8E496BDEFF6DE /* JCLandingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JCLandingView.swift; path = Classes/JCLandingView.swift; sourceTree = "<group>"; };
+		6683B88788092EB04D4D3440F5DCDDD8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C92C030DFC151670087B73599CE7143 /* Pods-JCLandingView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCLandingView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		71CC78B482B69FE1D551AE0232D1CC7B /* JCLandingView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = JCLandingView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71F68EFEF53B5D26EB718E4AF119E5A1 /* Pods-JCLandingView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCLandingView_Tests-resources.sh"; sourceTree = "<group>"; };
+		7A00B202200C5E2A584A68D77D434063 /* JCLandingViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JCLandingViewCell.swift; path = Classes/JCLandingViewCell.swift; sourceTree = "<group>"; };
 		7E149519E82077ADDEEFF515DD5E9AE1 /* Pods-JCLandingView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JCLandingView_Tests.modulemap"; sourceTree = "<group>"; };
 		90D8AB2574B1B67763F1BABA97D14F5C /* Pods-JCLandingView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCLandingView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		91BB50E96AF8B055E44BE70A9E46FCFA /* Pods-JCLandingView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JCLandingView_Tests-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3BDF53EE1994F2FBA165FFF3D2D23F3 /* Pods-JCLandingView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCLandingView_Example-umbrella.h"; sourceTree = "<group>"; };
+		A5DD4423B9513C1CB23EA2139A284529 /* UIResponder+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIResponder+Extension.swift"; path = "Classes/UIResponder+Extension.swift"; sourceTree = "<group>"; };
 		A9ABFF34C6C91B45BD440930A0E7DEB2 /* Pods-JCLandingView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCLandingView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B3022969CAFE20119E8149FAA899D192 /* Pods-JCLandingView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JCLandingView_Example.modulemap"; sourceTree = "<group>"; };
-		BC29D0EFE658CDA8AD3E919B41C76E59 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		C99C46411CA2D3E11D2887A3B618962C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CCF8EA3F38B91EDC554567FAAACFEA5F /* JCLandingView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JCLandingView.framework; path = JCLandingView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC90645EB98AC126D87F81C8C52BB44 /* JCLandingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JCLandingView-prefix.pch"; sourceTree = "<group>"; };
+		CCF8EA3F38B91EDC554567FAAACFEA5F /* JCLandingView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JCLandingView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D32C69782569EF0BF609135024CE038B /* Pods-JCLandingView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCLandingView_Example-resources.sh"; sourceTree = "<group>"; };
-		D3625675E026C57617FE3D665D99BAA9 /* JCLandingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JCLandingView-prefix.pch"; sourceTree = "<group>"; };
 		DBA7EE9FF0A783EC255C6CCB1735E12C /* Pods-JCLandingView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCLandingView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		E0F4675257C89E0009C637568C75CB54 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E41AFCEBEA4FA0CDDC1E1145BF3B0CC7 /* JCLandingView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JCLandingView.modulemap; sourceTree = "<group>"; };
+		F4BF57106CD46CDF96708B85653DF08C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		FB9D404B5BA8675AF169EA11954C57C3 /* Pods-JCLandingView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JCLandingView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		25DBE2D5DDB31F4B018DC2871B97D96C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69BAC10DE5190676F4005FAAF686133B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2CD0166821422CE7AA5D281C0D749BFF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -91,25 +105,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D476EFE987E8EA0DD814531E93449DC6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D44FFB394EE485778AA633FD79923992 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1FBE632B5E59DBEE57B571DFF25E51D8 /* Pod */ = {
+		449EC0904946E8F423E60972F0D9C4C3 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				36812273751F34E10CE1A53EDC585EA4 /* JCLandingView.podspec */,
-				BC29D0EFE658CDA8AD3E919B41C76E59 /* LICENSE */,
-				1D7371316353809BABB74C2FA863E3F2 /* README.md */,
+				C2479E51370BCB36DD1C9F599DDE7D82 /* JCLandingView */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		4D3255F075A07C646570C89F5F6F1425 /* Pods-JCLandingView_Tests */ = {
@@ -147,11 +151,25 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		6CC39990ECC898B1D3D87132307C1AE9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6683B88788092EB04D4D3440F5DCDDD8 /* Info.plist */,
+				4B953C89352EC097A1EBC22620DAE042 /* JCLandingView.modulemap */,
+				63E04F30A68FB21E31DB53803036126E /* JCLandingView.xcconfig */,
+				199662F82D116C7617CF9C4F9EB621BB /* JCLandingView-dummy.m */,
+				BDC90645EB98AC126D87F81C8C52BB44 /* JCLandingView-prefix.pch */,
+				0B2193EAC515127DFC94E27BCE6BEDE6 /* JCLandingView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JCLandingView";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				C242A772E060365F6500BE677616AC33 /* Development Pods */,
+				449EC0904946E8F423E60972F0D9C4C3 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				7F187DAC8527C2695865C1F7AEA54C88 /* Products */,
 				5459166211CE8DFE4EA60FA56617908C /* Targets Support Files */,
@@ -168,20 +186,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		96FE97E83ABD6C9A8400556AE1D3B764 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C99C46411CA2D3E11D2887A3B618962C /* Info.plist */,
-				E41AFCEBEA4FA0CDDC1E1145BF3B0CC7 /* JCLandingView.modulemap */,
-				2F8283A56E8C012FC7A2D369B506B668 /* JCLandingView.xcconfig */,
-				4422AE96E619F4F3E391C4997286377F /* JCLandingView-dummy.m */,
-				D3625675E026C57617FE3D665D99BAA9 /* JCLandingView-prefix.pch */,
-				40A33D3B37C2B7024D0504C4C4094B0E /* JCLandingView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JCLandingView";
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -190,12 +194,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C242A772E060365F6500BE677616AC33 /* Development Pods */ = {
+		C2479E51370BCB36DD1C9F599DDE7D82 /* JCLandingView */ = {
 			isa = PBXGroup;
 			children = (
-				DF027CF19C3B2F6641252038C40AE8C6 /* JCLandingView */,
+				64AA68312EB777329CA8E496BDEFF6DE /* JCLandingView.swift */,
+				7A00B202200C5E2A584A68D77D434063 /* JCLandingViewCell.swift */,
+				A5DD4423B9513C1CB23EA2139A284529 /* UIResponder+Extension.swift */,
+				3399C365460E121C3D559955AFBD05A4 /* UIView+Extension.swift */,
+				F85167A7F437B11030E398C4F6A19B7E /* Pod */,
+				6CC39990ECC898B1D3D87132307C1AE9 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = JCLandingView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		D7D8849B0ABDCC9CC5A05C05D1DB0764 /* Pods-JCLandingView_Example */ = {
@@ -216,15 +226,14 @@
 			path = "Target Support Files/Pods-JCLandingView_Example";
 			sourceTree = "<group>";
 		};
-		DF027CF19C3B2F6641252038C40AE8C6 /* JCLandingView */ = {
+		F85167A7F437B11030E398C4F6A19B7E /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				15D01D21B62564F26C9BE38223CA4382 /* ReplaceMe.swift */,
-				1FBE632B5E59DBEE57B571DFF25E51D8 /* Pod */,
-				96FE97E83ABD6C9A8400556AE1D3B764 /* Support Files */,
+				71CC78B482B69FE1D551AE0232D1CC7B /* JCLandingView.podspec */,
+				F4BF57106CD46CDF96708B85653DF08C /* LICENSE */,
+				02F9C9D7B204832B0342CEF683DB2579 /* README.md */,
 			);
-			name = JCLandingView;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,11 +255,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2B26B2302C9F654693DAD52F5993D02 /* Headers */ = {
+		F3927B55195F42A948CABFFF93534B22 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D100C33B3B5AAA1CB9DF00AC6A79BC14 /* JCLandingView-umbrella.h in Headers */,
+				9F2E1B03852C50D3D91543D8744DC0C4 /* JCLandingView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,24 +285,6 @@
 			productReference = 4F732100116377000FC105BA450EDF2E /* Pods_JCLandingView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		50DE68E9EBF5B107B879A44D93DB8984 /* JCLandingView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BB38F3170BCAA9F68E230FDBA3C2B506 /* Build configuration list for PBXNativeTarget "JCLandingView" */;
-			buildPhases = (
-				E2B26B2302C9F654693DAD52F5993D02 /* Headers */,
-				219288336647AE9ED80ABA0BC668B7A8 /* Sources */,
-				D476EFE987E8EA0DD814531E93449DC6 /* Frameworks */,
-				D90DBC430085B30D95B269AF0C8537B3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = JCLandingView;
-			productName = JCLandingView;
-			productReference = CCF8EA3F38B91EDC554567FAAACFEA5F /* JCLandingView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		565CC2DD33229F0EFB06919F7C6DC1AF /* Pods-JCLandingView_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 571AC99C714186421119104EF2432F0F /* Build configuration list for PBXNativeTarget "Pods-JCLandingView_Tests" */;
@@ -313,6 +304,24 @@
 			productReference = 16DAF5BA902556DA26E06EC19DCDD89C /* Pods_JCLandingView_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		F0E24E062D1E8472368E4A84ADBA0199 /* JCLandingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 222257994E367E56662D780AC46F4E1E /* Build configuration list for PBXNativeTarget "JCLandingView" */;
+			buildPhases = (
+				F3927B55195F42A948CABFFF93534B22 /* Headers */,
+				849558090B8A258E25DDD5C7C5222B8D /* Sources */,
+				25DBE2D5DDB31F4B018DC2871B97D96C /* Frameworks */,
+				96125E257B0CC3CEC38E0785203C6B5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JCLandingView;
+			productName = JCLandingView;
+			productReference = CCF8EA3F38B91EDC554567FAAACFEA5F /* JCLandingView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -320,7 +329,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1010;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -334,7 +343,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				50DE68E9EBF5B107B879A44D93DB8984 /* JCLandingView */,
+				F0E24E062D1E8472368E4A84ADBA0199 /* JCLandingView */,
 				1726E1882EC58FC9689BADF9059F6C30 /* Pods-JCLandingView_Example */,
 				565CC2DD33229F0EFB06919F7C6DC1AF /* Pods-JCLandingView_Tests */,
 			);
@@ -356,7 +365,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D90DBC430085B30D95B269AF0C8537B3 /* Resources */ = {
+		96125E257B0CC3CEC38E0785203C6B5C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -374,20 +383,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		219288336647AE9ED80ABA0BC668B7A8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				11CFE79ED2ADD5904C70F7C887B46967 /* JCLandingView-dummy.m in Sources */,
-				8A43234826D17C694D7AF99B77E6893A /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5A77DEA8DA2D3673982567A6B5A0246A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				359D1957F57B978D6802776794ADD44D /* Pods-JCLandingView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849558090B8A258E25DDD5C7C5222B8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4047F2F1DF095D92556A7C9286587DAD /* JCLandingView-dummy.m in Sources */,
+				4B0E53F764E6C4F33727C9C1B59E5FA3 /* JCLandingView.swift in Sources */,
+				95D04E1233AE487E0CA19B8D9E2887AE /* JCLandingViewCell.swift in Sources */,
+				D3E28DF3968FF4DE44A9045E4A30A6F0 /* UIResponder+Extension.swift in Sources */,
+				274F0B72A2E593645EE91C2D3B0F489F /* UIView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,7 +415,7 @@
 		2DDF8388D92795D856420808B675760F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JCLandingView;
-			target = 50DE68E9EBF5B107B879A44D93DB8984 /* JCLandingView */;
+			target = F0E24E062D1E8472368E4A84ADBA0199 /* JCLandingView */;
 			targetProxy = 74055FEBB1A78009C33374D11A380859 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -470,8 +482,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -534,7 +545,41 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		74345B023633845D35D5B855EC6BF271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63E04F30A68FB21E31DB53803036126E /* JCLandingView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JCLandingView/JCLandingView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JCLandingView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JCLandingView/JCLandingView.modulemap";
+				PRODUCT_MODULE_NAME = JCLandingView;
+				PRODUCT_NAME = JCLandingView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -606,72 +651,6 @@
 			};
 			name = Debug;
 		};
-		AA20DA425E469EA582DF14FBF5A3F339 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F8283A56E8C012FC7A2D369B506B668 /* JCLandingView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JCLandingView/JCLandingView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JCLandingView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JCLandingView/JCLandingView.modulemap";
-				PRODUCT_MODULE_NAME = JCLandingView;
-				PRODUCT_NAME = JCLandingView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B2BDC2E1C6CAA121F488CCCC7942D2F4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F8283A56E8C012FC7A2D369B506B668 /* JCLandingView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JCLandingView/JCLandingView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JCLandingView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JCLandingView/JCLandingView.modulemap";
-				PRODUCT_MODULE_NAME = JCLandingView;
-				PRODUCT_NAME = JCLandingView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -736,9 +715,50 @@
 			};
 			name = Debug;
 		};
+		FBA1C5EC5214156AE0B3145D1B0D575E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63E04F30A68FB21E31DB53803036126E /* JCLandingView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JCLandingView/JCLandingView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JCLandingView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JCLandingView/JCLandingView.modulemap";
+				PRODUCT_MODULE_NAME = JCLandingView;
+				PRODUCT_NAME = JCLandingView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		222257994E367E56662D780AC46F4E1E /* Build configuration list for PBXNativeTarget "JCLandingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBA1C5EC5214156AE0B3145D1B0D575E /* Debug */,
+				74345B023633845D35D5B855EC6BF271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -762,15 +782,6 @@
 			buildConfigurations = (
 				7B91952B6021F291BE949CE8EE73C51B /* Debug */,
 				3FBC9C2E7DF7986B5BDC6B0B0BF84AE6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BB38F3170BCAA9F68E230FDBA3C2B506 /* Build configuration list for PBXNativeTarget "JCLandingView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AA20DA425E469EA582DF14FBF5A3F339 /* Debug */,
-				B2BDC2E1C6CAA121F488CCCC7942D2F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
