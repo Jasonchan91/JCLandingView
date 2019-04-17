@@ -18,7 +18,7 @@ class JCLandingViewCell: UITableViewCell {
         self.landingContentViews = views
         contentView.subviews.forEach{ $0.removeFromSuperview() }
         views.forEach {
-            $0.loading = $0.loading
+            $0.landingViewIsLoading = $0.landingViewIsLoading
         }
         configureCell(withViews: views)
     }
@@ -47,7 +47,7 @@ class JCLandingViewCell: UITableViewCell {
         guard !views.isEmpty else { return }
         
         if views.count == 1 {
-            views[0].loading = views[0].loading
+            views[0].landingViewIsLoading = views[0].landingViewIsLoading
             configureCell(withView: views[0])
             configureSeparator(withView: views[0])
             return

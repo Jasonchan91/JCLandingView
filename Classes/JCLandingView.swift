@@ -13,16 +13,16 @@ public enum JCLandingContentAlignment {
     case left, center, right
 }
 
-public enum JCLandingSubviewSize {
+public enum JCSizeType {
     case auto
     case value(CGFloat)
     case ratio(CGFloat)
 }
 
 public class JCSize: NSObject {
-    let width: JCLandingSubviewSize
-    let height: JCLandingSubviewSize
-    public init(width: JCLandingSubviewSize, height: JCLandingSubviewSize) {
+    let width: JCSizeType
+    let height: JCSizeType
+    public init(width: JCSizeType, height: JCSizeType) {
         self.width = width
         self.height = height
     }
@@ -30,23 +30,11 @@ public class JCSize: NSObject {
 
 public class JCLandingView: UIView {
     
-    public var autoHideLastSeparator = true
+    public var autoHideLastSeparator: Bool = true
     
     public override var landingViewContentInset: UIEdgeInsets {
         didSet {
             tableView.contentInset = landingViewContentInset
-        }
-    }
-    
-    public var topInset: CGFloat = 0 {
-        didSet {
-            tableView.contentInset.top = topInset
-        }
-    }
-    
-    public var bottomInset: CGFloat = 0 {
-        didSet {
-            tableView.contentInset.bottom = bottomInset
         }
     }
     
@@ -220,16 +208,21 @@ extension JCLandingView {
         }
     }
     
+    /* Add a single view to the last position */
     
     public func appendView(_ view: UIView) {
         views.append([view])
         reload()
     }
     
+    /* Add a collection of views to the last position */
+    
     public func appendViews(_ views: [UIView]) {
         self.views.append(views)
         reload()
     }
+    
+    /* Force reload the whole landingView */
     
     public func reload() {
         reloadCells()
@@ -258,12 +251,16 @@ extension JCLandingView {
         }
     }
     
+    /* Determind the view is exist in the landing view */
+    
     public func contains(_ view: UIView) -> Bool {
         if let _ = self.views.index(where: { $0.contains(view)}) {
             return true
         }
         return false
     }
+    
+    /* Force reload a respective view */
     
     public func reloadView(_ view: UIView) {
         if let index = self.views.index(where: {$0 == [view] }) {
@@ -278,6 +275,8 @@ extension JCLandingView {
             }
         }
     }
+    
+    /* Remove a collection of views from the landing view */
     
     public func removeViews(_ views: [UIView]) {
         for view in views {
@@ -456,7 +455,7 @@ extension JCLandingView {
     
     private func adjustTableView(withKeyboardHeight keyboardHeight: CGFloat) {
         
-        let bottomInset = keyboardHeight > 0 ? 0 : self.bottomInset
+        let bottomInset = keyboardHeight > 0 ? 0 : self.landingViewContentInset.bottom
         if keyboardHeight > 0 {
             // Adjust content offset to show first responder view in the middle of table view.
             guard let responder = UIResponder.findFirstResponder() else {

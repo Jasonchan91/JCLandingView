@@ -99,7 +99,7 @@ extension UIView {
     }
     
     
-    @objc public var loading: Bool {
+    @objc public var landingViewIsLoading: Bool {
         get {
             guard let isLoading = objc_getAssociatedObject(self, &AssociatedKeys.LoadingDescriptiveName) as? Bool else { return false }
             return isLoading
@@ -123,6 +123,10 @@ extension UIView {
                 loadingView.backgroundColor = superview.backgroundColor
                 loadingView.centerXAnchor.constraint(equalTo: superview.centerXAnchor).isActive = true
                 loadingView.centerYAnchor.constraint(equalTo: superview.centerYAnchor).isActive = true
+                loadingView.leadingAnchor.constraint(equalTo: superview.leadingAnchor).isActive = true
+                loadingView.topAnchor.constraint(equalTo: superview.topAnchor).isActive = true
+                loadingView.trailingAnchor.constraint(equalTo: superview.trailingAnchor).isActive = true
+                loadingView.bottomAnchor.constraint(equalTo: superview.bottomAnchor).isActive = true
                 
             }
         } else {
