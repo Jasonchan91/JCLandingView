@@ -532,7 +532,7 @@ extension ViewController {
             landingView.appendViews([otherRequirementTextView], belowView: othersRequirementLabel)
             landingView.appendView(firstNameIndicatorView, beforeView: firstNameLabel)
         case false:
-            landingView.removeViews([citizenButton, PRButton, foreignerButton, immigrationStatusLabel, otherRequirementTextView, othersRequirementLabel, minumumSizeTextField, minimumSizeLabel, accessoryImageView, amenitiesEnteredLabel, amenitiesLabel, maximumBudgetTextField, maximumBudgetLabel, mainPurposeEnteredLabel, mainPurposeLabel, firstNameIndicatorView])
+            landingView.removeViews([citizenButton, PRButton, foreignerButton, immigrationStatusLabel, otherRequirementTextView, othersRequirementLabel, minumumSizeTextField, minimumSizeLabel, accessoryImageView, amenitiesEnteredLabel, amenitiesLabel, maximumBudgetTextField, maximumBudgetLabel, mainPurposeEnteredLabel, mainPurposeLabel])
         }
     }
     

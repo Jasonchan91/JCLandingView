@@ -179,16 +179,22 @@ extension JCLandingView {
     }
     
     /* Add a single view in front of the selected view */
+    public func appendView(_view: UIView, beforeView: UIView) {
+        if let index = self.views.index(where: { $0.contains(beforeView)}) {
+            var targetView = self.views[index]
+            let cell = self.cells[index]
+            
+        }
+    }
     
     public func appendView(_ view: UIView, beforeView: UIView, animated: Bool = true) {
         if let index = self.views.index(where: { $0.contains(beforeView)}) {
             var targetView = self.views[index]
+            tableView.beginUpdates()
             if let indexOfSubview = targetView.index(where: {$0 == beforeView }) {
                 targetView.insert(view, at: indexOfSubview)
             }
             self.views[index] = targetView
-            updateCell(atIndex: index, withNewViews: targetView)
-            tableView.beginUpdates()
             tableView.reloadRows(at: [IndexPath(row: index, section: 0)], with: .fade)
             tableView.endUpdates()
         }
@@ -233,12 +239,6 @@ extension JCLandingView {
     private func reloadCells() {
         cells = []
         createCells()
-    }
-    
-    private func updateCell(atIndex index: Int, withNewViews newViews: [UIView]) {
-        let cell = JCLandingViewCell(landingContentViews: newViews)
-        cell.landingViewSeparatorInset = landingViewSeparatorInset
-        cells[index] = cell
     }
     
     private func createCell(ofViews views: [UIView]) -> JCLandingViewCell? {
@@ -301,8 +301,7 @@ extension JCLandingView {
                         newViews.remove(at: indexOfSubview)
                     }
                     self.views[index] = newViews
-                    self.updateCell(atIndex: index, withNewViews: newViews)
-                    tableView.reloadRows(at: [IndexPath(row: index, section: 0)], with: .automatic)
+                    //                    tableView.reloadRows(at: [IndexPath(row: index, section: 0)], with: .fade)
                     tableView.endUpdates()
                 }
             }
