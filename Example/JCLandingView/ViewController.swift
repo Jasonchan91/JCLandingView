@@ -63,6 +63,15 @@ class ViewController: UIViewController {
         return view
     }()
     
+    fileprivate lazy var firstNameIndicatorView: UIView = {
+        let view = UIView()
+        view.backgroundColor = UIColor.green
+        view.layer.cornerRadius = 5
+        view.clipsToBounds = true
+        view.landingViewContentSize = JCSize(width: .value(10), height: .value(10))
+        return view
+    }()
+    
     fileprivate lazy var firstNameLabel: UILabel = {
         let label = UILabel()
         label.text = "First Name"
@@ -521,8 +530,9 @@ extension ViewController {
             landingView.appendViews([minimumSizeLabel, minumumSizeTextField], belowView: amenitiesLabel)
             landingView.appendViews([othersRequirementLabel], belowView: minimumSizeLabel)
             landingView.appendViews([otherRequirementTextView], belowView: othersRequirementLabel)
+            landingView.appendView(firstNameIndicatorView, beforeView: firstNameLabel)
         case false:
-            landingView.removeViews([citizenButton, PRButton, foreignerButton, immigrationStatusLabel, otherRequirementTextView, othersRequirementLabel, minumumSizeTextField, minimumSizeLabel, accessoryImageView, amenitiesEnteredLabel, amenitiesLabel, maximumBudgetTextField, maximumBudgetLabel, mainPurposeEnteredLabel, mainPurposeLabel])
+            landingView.removeViews([citizenButton, PRButton, foreignerButton, immigrationStatusLabel, otherRequirementTextView, othersRequirementLabel, minumumSizeTextField, minimumSizeLabel, accessoryImageView, amenitiesEnteredLabel, amenitiesLabel, maximumBudgetTextField, maximumBudgetLabel, mainPurposeEnteredLabel, mainPurposeLabel, firstNameIndicatorView])
         }
     }
     
